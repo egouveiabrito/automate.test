@@ -1,6 +1,16 @@
 # automate.test
 Selenium Web Automation Tool 
 
+A class helper SeleniumHelper.cs tem muitos metodos como: 
+
+- Abrir url
+- Obter valor de determinado componente HTML
+- Setar valor de determinado componente HTML
+- Delay de tempo de renderização, caso a pagina seja lenta
+- Verificação se estamos na pagina que queremos, ou seja se estamos na pagina que esperávamos
+- Entre OUTROS...
+ 
+
 1. Exemplo de navegação em paginas 
 
         static void Main(string[] args)
