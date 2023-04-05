@@ -3,14 +3,6 @@ Selenium Web Automation Tool
 
 1. Exemplo de navegação em paginas 
 
-using AutomationTest.Core;
-
-namespace Test
-{
-    public class Program
-    {
-        private static SeleniumHelper Selenium = new SeleniumHelper(new ConfigurationHelper());
-
         static void Main(string[] args)
         {
             Console.WriteLine(".:: 1. Exemplo de Abrir Navegador");
@@ -35,12 +27,11 @@ namespace Test
 
             Console.WriteLine(".:: Fim do exemplo");
         }
-    }
-} 
-
 
 2. Como copiar o XPath dos componentes em HTML
 ![COMO_COPIAR_XPATH](https://user-images.githubusercontent.com/21311134/229977753-b6093d38-8b39-49ea-b3e8-7d92247682c3.png)
+
+
 
 3. Atualizar versão do chorme
 ![deixar_chorme_atualizado_nessa_versao](https://user-images.githubusercontent.com/21311134/229977274-9398d263-e849-425f-a6f1-eb09c36ecd2b.PNG)
